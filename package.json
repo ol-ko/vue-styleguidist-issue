@@ -7,7 +7,9 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "styleguide": "vue-cli-service styleguidist",
+    "styleguide:build": "vue-cli-service styleguidist:build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -33,6 +35,7 @@
     "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5",
+    "vue-cli-plugin-styleguidist": "~4.37.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
